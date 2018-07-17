@@ -19,10 +19,6 @@ def reformat_languages(languages)
   new_hash ={}
 
   languages.each do |style,language|
-    if style == [:oo]
-      language[:style] = "oo"
-    elsif style == [:functional]
-      language[:style] = "functional"
-    end
+    new_hash[:style] = style
   end 
 end 
