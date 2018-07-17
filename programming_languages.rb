@@ -19,6 +19,10 @@ def reformat_languages(languages)
   new_hash ={}
 
   languages.each do |style,language|
-    languages[:style][:language] = style
+    language.each do |language,type|
+      type.each do |key,value|
+        if 
+       end 
+     end 
   end 
 end 
