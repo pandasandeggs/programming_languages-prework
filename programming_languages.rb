@@ -21,7 +21,7 @@ def reformat_languages(languages)
   languages.each do |style,language|
     language.each do |language,type|
       type.each do |key,value|
-        if 
+        if new_hash[language].nil?
        end 
      end 
   end 
